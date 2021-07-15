@@ -1,8 +1,15 @@
-function soma(n1, n2){
-    return n1 + n2;
+function clicou(){
+    document.getElementById("agradecimento").innerHTML = <b>"Obrigada por clicar";</b>
 }
 
-function validaIdade(idade){
+function redirecionar(){
+    //window.open("https://globallab.org/");
+    window.location.href= "https://globallab.org/";
+}
+
+
+/*function validaIdade(idade){
+    
     var validar = true;
     if(idade >= 18){
 validar = true
@@ -14,8 +21,10 @@ validar = true
 var idade = prompt("Qual a sua idade");
 validaIdade(idade);
 console.log(validar);
+/*
 
 //alert(soma(5, 10));
+
 
 
 
